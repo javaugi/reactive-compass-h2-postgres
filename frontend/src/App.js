@@ -8,6 +8,8 @@ import EditUser from './forms/EditUserForm';
 import UserTable from './tables/UserTable';
 import { Button, Container } from 'reactstrap';
 
+import FullLifeCycle from './tables/FullLifeCycle';
+
 // Create an Axios instance with base URL
 const api = axios.create({
   baseURL: '/api', // Your API base URL
@@ -148,6 +150,10 @@ function App() {
                                     updateUser={updateUser}
                                 />
                             </Fragment>
+                        </div>
+                        <div className="flex-large">
+                            <h3>Full Life Cycle Example</h3>
+                            <FullLifeCycle />
                         </div>
                         <div className="flex-large">
                             <h3>View users</h3>

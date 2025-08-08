@@ -1,0 +1,195 @@
+2025-08-03 10:56:14,019 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-03 10:56:14,171 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-03 10:56:14,545 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 10:56:15,313 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 10:56:15,466 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 144 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 10:56:17,917 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 10:56:25,716 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 10:56:26,690 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 10:56:26,807 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 10:56:30,278 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 10:56:30,890 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080 (http)
+2025-08-03 11:07:03,811 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-03 11:07:03,813 [netty-shutdown] INFO  o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete
+2025-08-03 11:07:38,938 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-03 11:07:39,075 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-03 11:07:39,449 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:07:40,244 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:07:40,364 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 113 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:07:42,852 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:07:49,908 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:07:50,815 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:07:50,930 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:07:54,074 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:07:54,707 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080 (http)
+2025-08-03 11:08:52,787 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-03 11:08:52,790 [netty-shutdown] INFO  o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete
+2025-08-03 11:12:08,422 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-03 11:12:08,564 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-03 11:12:08,931 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:12:09,714 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:12:09,840 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 119 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:12:12,505 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:12:19,756 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:12:20,753 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:12:20,864 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:12:24,082 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:12:24,709 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080 (http)
+2025-08-03 11:13:50,397 [reactor-tcp-nio-11] WARN  reactor.netty.channel.FluxReceive - [c97fb27d, L:/127.0.0.1:62435 - R:localhost/127.0.0.1:5432] An exception has been observed post termination, use DEBUG level to see the full stack: java.net.SocketException: Connection reset
+2025-08-03 11:29:01,405 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-03 11:29:01,406 [netty-shutdown] INFO  o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete
+2025-08-03 11:29:29,761 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-03 11:29:29,907 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-03 11:29:30,294 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:29:31,052 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:29:31,183 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:29:33,747 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:29:41,273 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:29:42,308 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:29:42,424 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:29:45,367 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:29:46,077 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080 (http)
+2025-08-03 11:37:13,468 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-03 11:37:13,470 [netty-shutdown] INFO  o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete
+2025-08-03 11:37:43,538 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-03 11:37:43,676 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-03 11:37:44,018 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:37:44,786 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:37:44,909 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:37:47,347 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:37:55,462 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:37:56,427 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:37:56,534 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:37:59,717 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:38:00,369 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080 (http)
+2025-08-03 11:44:42,207 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-03 11:44:42,210 [netty-shutdown] INFO  o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete
+2025-08-03 11:45:20,247 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-03 11:45:20,396 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-03 11:45:20,774 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:45:21,549 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:45:21,667 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:45:24,181 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:45:32,382 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:45:33,379 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:45:33,492 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:45:36,738 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:45:37,311 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080 (http)
+2025-08-03 11:45:43,377 [reactor-tcp-nio-1] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.r2dbc.BadSqlGrammarException: executeMany; bad SQL grammar [INSERT INTO medications (id, name, description, dosage, unit, created_date, updated_date) VALUES ($1, $2, $3, $4, $5, $6, $7)]
+Caused by: org.springframework.r2dbc.BadSqlGrammarException: executeMany; bad SQL grammar [INSERT INTO medications (id, name, description, dosage, unit, created_date, updated_date) VALUES ($1, $2, $3, $4, $5, $6, $7)]
+	at org.springframework.r2dbc.connection.ConnectionFactoryUtils.convertR2dbcException(ConnectionFactoryUtils.java:253)
+	at org.springframework.r2dbc.core.DefaultDatabaseClient.lambda$inConnectionMany$8(DefaultDatabaseClient.java:157)
+	at reactor.core.publisher.Flux.lambda$onErrorMap$29(Flux.java:7353)
+	at reactor.core.publisher.Flux.lambda$onErrorResume$30(Flux.java:7406)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:94)
+	at reactor.core.publisher.FluxUsingWhen$UsingWhenSubscriber.deferredError(FluxUsingWhen.java:403)
+	at reactor.core.publisher.FluxUsingWhen$RollbackInner.onComplete(FluxUsingWhen.java:480)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2230)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onComplete(FluxFilter.java:166)
+	at reactor.core.publisher.FluxFilter$FilterConditionalSubscriber.onComplete(FluxFilter.java:300)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onComplete(FluxMap.java:275)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2572)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.request(FluxMap.java:295)
+	at reactor.core.publisher.FluxFilter$FilterConditionalSubscriber.request(FluxFilter.java:321)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.request(FluxFilter.java:186)
+	at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:72)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onSubscribe(FluxMap.java:92)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onSubscribe(FluxFilter.java:85)
+	at reactor.core.publisher.FluxFilter$FilterConditionalSubscriber.onSubscribe(FluxFilter.java:219)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onSubscribe(FluxMap.java:194)
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55)
+	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+	at reactor.core.publisher.FluxUsingWhen$UsingWhenSubscriber.onError(FluxUsingWhen.java:368)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:846)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:612)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:592)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.innerError(FluxFlatMap.java:867)
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onError(FluxFlatMap.java:994)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onError(FluxHandle.java:213)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onError(MonoFlatMapMany.java:256)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:201)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+	at io.r2dbc.postgresql.util.FluxDiscardOnCancel$FluxDiscardOnCancelSubscriber.onNext(FluxDiscardOnCancel.java:91)
+	at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onNext(FluxDoFinally.java:113)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:129)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.drain(FluxCreate.java:880)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.next(FluxCreate.java:805)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.next(FluxCreate.java:163)
+	at io.r2dbc.postgresql.client.ReactorNettyClient$Conversation.emit(ReactorNettyClient.java:696)
+	at io.r2dbc.postgresql.client.ReactorNettyClient$BackendMessageSubscriber.emit(ReactorNettyClient.java:948)
+	at io.r2dbc.postgresql.client.ReactorNettyClient$BackendMessageSubscriber.onNext(ReactorNettyClient.java:822)
+	at io.r2dbc.postgresql.client.ReactorNettyClient$BackendMessageSubscriber.onNext(ReactorNettyClient.java:728)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:129)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onNext(FluxMap.java:224)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onNext(FluxMap.java:224)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:292)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:401)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:435)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:455)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: io.r2dbc.postgresql.ExceptionFactory$PostgresqlBadGrammarException: value too long for type character varying(100)
+	at io.r2dbc.postgresql.ExceptionFactory.createException(ExceptionFactory.java:96)
+	at io.r2dbc.postgresql.ExceptionFactory.createException(ExceptionFactory.java:65)
+	at io.r2dbc.postgresql.ExceptionFactory.handleErrorResponse(ExceptionFactory.java:132)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:179)
+	... 45 common frames omitted
+2025-08-03 11:51:04,614 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-03 11:51:04,616 [netty-shutdown] INFO  o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete
+2025-08-03 11:56:35,176 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-03 11:56:35,317 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-03 11:56:35,692 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:56:36,450 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:56:36,570 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:56:39,059 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:56:43,222 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-03 11:56:44,165 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-03 11:56:44,280 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107 ms. Found 17 R2DBC repository interfaces.
+2025-08-03 11:56:47,675 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03 11:56:48,270 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080 (http)
+2025-08-03 17:40:57,126 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-03 17:40:57,128 [netty-shutdown] INFO  o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete
+2025-08-08 14:44:53,128 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-08 14:44:53,273 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-08 14:44:53,642 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-08 14:44:54,441 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-08 14:44:54,566 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 17 R2DBC repository interfaces.
+2025-08-08 14:44:56,985 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-08 15:04:18,054 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-08 15:04:18,194 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-08 15:04:18,565 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-08 15:04:19,358 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-08 15:04:19,490 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 17 R2DBC repository interfaces.
+2025-08-08 15:04:21,916 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'

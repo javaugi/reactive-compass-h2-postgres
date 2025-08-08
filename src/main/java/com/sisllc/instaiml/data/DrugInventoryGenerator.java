@@ -30,17 +30,8 @@ public class DrugInventoryGenerator extends DataGeneratorBase {
     }    
        
     public static DrugInventory generate(DatabaseClient dbClient, String pharmacyId, String medicationId) {
-        DrugInventory drugInventory =  DrugInventory.builder()
-            .id(UUID.randomUUID().toString())
-            .pharmacyId(pharmacyId)
-            .medicationId(medicationId)
-            .quantity(JAVA_FAKER.number().numberBetween(15, 100))
-            .reorderThreshold(JAVA_FAKER.number().numberBetween(10, 20))
-            .createdDate(JAVA_FAKER.date().past(JAVA_FAKER.number().numberBetween(30, 90), TimeUnit.DAYS).toInstant().atOffset(ZoneOffset.UTC))
-            .updatedDate(JAVA_FAKER.date().past(JAVA_FAKER.number().numberBetween(1, 30), TimeUnit.DAYS).toInstant().atOffset(ZoneOffset.UTC))
-            .build();
-        
-        log.trace("drugInventory {}", insert(dbClient, drugInventory).subscribe());        
+        DrugInventory drugInventory = generate(pharmacyId, medicationId);
+        log.trace("drugInventory {}", insert(dbClient, drugInventory).subscribe());
         return drugInventory;
     }    
        

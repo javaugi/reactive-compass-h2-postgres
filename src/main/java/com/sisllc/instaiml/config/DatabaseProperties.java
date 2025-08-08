@@ -46,12 +46,14 @@ public class DatabaseProperties {
     private String prodDatabase;
     
     private String h2TcpServerPort;
-    private String h2WebServerPort;    
+    private String h2WebServerPort;
+
     private ProfileSetting profileSetting;
     private String ddlSchemaDir;
     private Boolean setupMockUserOnly;
     private Boolean truncateMockData;
     private String databaseUsed;
+    private Boolean skipDataInit;
     
     public static enum ProfileSetting {
         H2, MOCK, PG, PROD

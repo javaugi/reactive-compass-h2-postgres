@@ -38,9 +38,14 @@ public class DataInitializer implements ApplicationRunner{
     
     @Override
     public void run(ApplicationArguments args) {
-        dbClient = DatabaseClient.create(connFactory);        
+        log.debug("DataInitializer Spring Boot {} skipDataInit {} database {}", SpringBootVersion.getVersion(), dbProps.getSkipDataInit(), dbProps.getDatabaseUsed());
+        if (dbProps.getSkipDataInit()) {
+            return;
+        }
+
+        dbClient = DatabaseClient.create(connFactory);
         this.databaseUsed = dbProps.getDatabaseUsed();
-        log.info("DataInitializer Spring Boot {} database {}", SpringBootVersion.getVersion(), this.databaseUsed);  
+
         
         log.info("createTables ... ");  
         createTables();

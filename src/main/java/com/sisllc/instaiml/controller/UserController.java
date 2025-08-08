@@ -1,11 +1,17 @@
 
 package com.sisllc.instaiml.controller;
 
+import com.sisllc.instaiml.dto.PaginationRequest;
 import com.sisllc.instaiml.dto.UserDto;
 import com.sisllc.instaiml.exception.UserNotFoundException;
 import com.sisllc.instaiml.model.User;
 import com.sisllc.instaiml.service.UserService;
 import jakarta.validation.Valid;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -13,11 +19,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import lombok.extern.slf4j.Slf4j;
 
 
 @Slf4j
@@ -86,11 +87,23 @@ public class UserController {
             );
     }
 
-    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
-    public Flux<User> getAllUsers() {
-        log.info("getAllUsers ");
+    //this has to be a PostMapping to use PaginationRequest
+    @PostMapping(name = "/users", produces = MediaType.APPLICATION_JSON_VALUE)
+    public Flux<User> getAllUsers(@RequestBody PaginationRequest request) {
+        // Default values if parameters aren't provided
+        int page = Optional.ofNullable(request.getPage()).orElse(0);
+        int size = Optional.ofNullable(request.getSize()).orElse(20);
+        log.info("getAllUsers page {} size {}", page, size);
         return userService.getAllUsers()
-            .limitRate(20);
+            .skip(page * size).take(size);
+    }
+
+    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    public Flux<User> getUsers(@RequestParam(defaultValue = "0") int page,
+        @RequestParam(defaultValue = "20") int size) {
+        log.info("getAllUsers page {} size {}", page, size);
+        return userService.getAllUsers()
+            .skip(page * size).take(size);
     }
 
     @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
