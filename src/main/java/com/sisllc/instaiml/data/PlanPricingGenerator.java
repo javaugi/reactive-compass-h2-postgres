@@ -28,8 +28,8 @@ public class PlanPricingGenerator extends DataGeneratorBase {
             .miscAdjustment(new BigDecimal(NET_FAKER.number().numberBetween(0, 20)).setScale(2, RoundingMode.UP).negate())
             .ageBracket(generateAgeGroupBracket())
             .coverageLevel(NET_FAKER.options().option("Bronze", "Silver", "Gold", "Platinum", "Catastrophic"))
-            .effectiveDate(JAVA_FAKER.date().past(JAVA_FAKER.number().numberBetween(30, 90), TimeUnit.DAYS).toInstant().atOffset(ZoneOffset.UTC))
-            .expirationDate(JAVA_FAKER.date().future(JAVA_FAKER.number().numberBetween(100, 300), TimeUnit.DAYS).toInstant().atOffset(ZoneOffset.UTC))
+            .effectiveDate(FAKER.date().past(FAKER.number().numberBetween(30, 90), TimeUnit.DAYS).toInstant().atOffset(ZoneOffset.UTC))
+            .expirationDate(FAKER.date().future(FAKER.number().numberBetween(100, 300), TimeUnit.DAYS).toInstant().atOffset(ZoneOffset.UTC))
             .build();
         
         return planPricing;

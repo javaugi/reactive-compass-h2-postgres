@@ -12,7 +12,7 @@ import org.apache.commons.lang3.StringUtils;
 public class DataGeneratorBase {
 
     public static final Random rand = new Random();
-    public static final Faker JAVA_FAKER = new Faker();
+    public static final Faker FAKER = new Faker();
     public static final net.datafaker.Faker NET_FAKER = new net.datafaker.Faker();
 
     public static final List<String> MED_SPECIALTIES = List.of("Allergy and immunology", "Anesthesiology", "Dermatology", "Diagnostic radiology",
@@ -22,7 +22,7 @@ public class DataGeneratorBase {
 
     protected static String generateAgeGroupBracket() {
         StringBuilder sb = new StringBuilder();
-        int ndx = JAVA_FAKER.number().numberBetween(0, 6);
+        int ndx = FAKER.number().numberBetween(0, 6);
         if (ndx >= 6) {
             sb.append("60+");
         } else {

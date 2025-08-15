@@ -193,3 +193,9 @@ Caused by: io.r2dbc.postgresql.ExceptionFactory$PostgresqlBadGrammarException: v
 2025-08-08 15:04:19,358 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
 2025-08-08 15:04:19,490 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 17 R2DBC repository interfaces.
 2025-08-08 15:04:21,916 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-14 19:10:29,195 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sisllc.instaiml.MyReactiveApplicationTests]: MyReactiveApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-14 19:10:29,369 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sisllc.instaiml.MyReactiveApplication for test class com.sisllc.instaiml.MyReactiveApplicationTests
+2025-08-14 19:10:29,787 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-14 19:10:30,713 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-14 19:10:30,882 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 162 ms. Found 18 R2DBC repository interfaces.
+2025-08-14 19:10:33,469 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
